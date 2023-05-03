@@ -1,33 +1,13 @@
 /*  your css code here. If applicable */
-#yellow,#red,#green{
-	border-top-style:solid;
-	border-bottom-style:solid;
-	border-left-style:solid;
-	border-right-style:solid;
-	border-top-width:3px;
-	border-bottom-width:3px;
-	border-left-width:3px;
-	border-right-width:3px;
-	border-top-color:color;
-}
 #yellow{
-	background-color:yellow;	
-	border-top-color:green;
-	border-bottom-color:green;
-	border-left-color:green;
-	border-right-color:green;
+	background:yellow;
+	border:3px solid green;
 }
 #red{
-	background-color:red;
-	border-top-color:black;
-	border-bottom-color:black;
-	border-left-color:black;
-	border-right-color:black;
+	background:red;
+	border:3px solid black;
 }
 #green{
-	background-color:green;
-	border-top-color:yellow;
-	border-bottom-color:yellow;
-	border-left-color:yellow;
-	border-right-color:yellow;
+	background:green;
+	border:3px solid yellow;
 }
